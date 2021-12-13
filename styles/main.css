@@ -10,22 +10,35 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 80px;
-    background-color: #000;
+    height: 60px;
+    background-color: rgba(4, 51, 14, 0.8);
 }
 
 h3{
-    color: palevioletred;
+    color :rgb(255, 255, 255);
 }
 
 article{
+    font-size: 14pt;
+    text-indent: 15mm;
     background-color: rgb(245, 239, 239);
     border-radius: 5pt;
-    width: 50%;
-    height: 80%;
+    width: 70%;
+    min-height: 80%;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.text {
+    margin-left: 5mm;
+    margin-right: 5mm;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(4, 51, 14, 0.8);
+    border-radius: 5pt;
 }
 
 .main-menu {
@@ -38,8 +51,8 @@ article{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(58, 153, 113, 0.856);
-    border-radius: 5pt;
+    /* background-color: rgba(58, 153, 113, 0.856);
+    border-radius: 5pt; */
     
 }
 .main-menu > li {
@@ -52,25 +65,17 @@ article{
     padding: 0 0 20px 0;
     position: relative;
     text-transform: uppercase;   
-    color: #000;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     letter-spacing: 0.2px;
     font-size: 15px;
     text-decoration: none;   
 }
-.main-menu > li > a:hover {
-    text-decoration: none;   
-    color: #337AB7;
-}
 
-
-.main-menu li {
-    margin: 0;
-    white-space: nowrap;
-}
 .main-menu li {
     position: relative;
     margin-right: 12px;
+    
 }
 
 .main-menu li:hover > ul {
@@ -81,7 +86,7 @@ article{
     padding: 10px 0;
     margin: 0;
     list-style: none;
-    background-color: #33b780;
+    background-color: rgba(4, 51, 14, 0.8);
     border-radius: 5pt;
     position: absolute;
     z-index: 20;
@@ -100,15 +105,19 @@ article{
     margin-bottom: 0;
 }
 .main-menu ul li a {
+    color: rgb(255, 255, 255);
     display: block;
-    color: #fff;
     padding: 10px;
     text-decoration: none;   
 }
-.main-menu ul li a:hover {
-    color: #053a69;
-    text-decoration: none;   
+
+
+.main-menu  li a:hover{
+    color: #aa6089;
+    text-decoration: none;
 }
+
+
 .main-menu ul ul {
     top: 0;
     left: 100%;
