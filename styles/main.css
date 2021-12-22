@@ -2,11 +2,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16pt;
     width: 99%;
-    height: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -18,16 +19,58 @@ h3{
     color :rgb(255, 255, 255);
 }
 
-article{
-    font-size: 14pt;
-    text-indent: 15mm;
+section{
+    width: 100%;
+}
+
+aside{
+    background-color: rgb(245, 239, 239);
+    width: 15%;
+    border-radius: 5pt;
+    position: sticky;
+    top: 0;
+    
+}
+
+aside.left  {
+    float: left;
+}
+
+aside.right  {
+    float: right;
+}
+
+ul.side-menu{
+   
+    list-style: none;
+    background-color: inherit;
+}
+
+ul.side-menu li a:hover{
+    color: #aa6089;
+    text-decoration: none;
+}
+
+ul.side-menu li a{
+    color: rgb(138 138 189);
+    text-decoration: none;
+}
+
+main{
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(245, 239, 239);
     border-radius: 5pt;
-    width: 70%;
     min-height: 80%;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+article{
+    font-size: 14pt;
+    text-indent: 15mm;
 }
 
 .text {
@@ -41,7 +84,9 @@ header{
     border-radius: 5pt;
 }
 
-.main-menu {
+
+
+ul.main-menu {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -51,17 +96,16 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: rgba(58, 153, 113, 0.856);
-    border-radius: 5pt; */
     
 }
-.main-menu > li {
+
+ul.main-menu > li {
     display: inline-flex;
 }
-.main-menu > li + li {
+ul.main-menu > li + li {
     margin-left: 20px;
 }
-.main-menu > li > a {
+ul.main-menu > li > a {
     padding: 0 0 20px 0;
     position: relative;
     text-transform: uppercase;   
@@ -72,17 +116,17 @@ header{
     text-decoration: none;   
 }
 
-.main-menu li {
+ul.main-menu li {
     position: relative;
     margin-right: 12px;
     
 }
 
-.main-menu li:hover > ul {
+ul.main-menu li:hover > ul {
     opacity: 1;
     visibility: visible;
 }
-.main-menu ul {
+ul.main-menu ul {
     padding: 10px 0;
     margin: 0;
     list-style: none;
@@ -96,15 +140,15 @@ header{
     opacity: 0;
     visibility: hidden;
 }
-.main-menu ul li {
+ul.main-menu ul li {
     display: block;
     padding: 0 10px;
     line-height: 1.1;
 }
-.main-menu ul li:last-child {
+ul.main-menu ul li:last-child {
     margin-bottom: 0;
 }
-.main-menu ul li a {
+ul.main-menu ul li a {
     color: rgb(255, 255, 255);
     display: block;
     padding: 10px;
@@ -112,14 +156,9 @@ header{
 }
 
 
-.main-menu  li a:hover{
+ul.main-menu  li a:hover{
     color: #aa6089;
     text-decoration: none;
 }
 
-
-.main-menu ul ul {
-    top: 0;
-    left: 100%;
-}
 
