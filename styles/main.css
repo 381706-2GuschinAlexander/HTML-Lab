@@ -4,6 +4,7 @@ body{
     width: 99%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: url("../images/bg.jpg");
 }
 
 footer{
@@ -17,6 +18,7 @@ footer{
 
 h3{
     color :rgb(255, 255, 255);
+    padding-top: 7px;
 }
 
 section{
@@ -40,6 +42,31 @@ aside.right  {
     float: right;
 }
 
+img.main-img{
+    border-radius: 8px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+.arrow a:hover{
+    color: #aa6089;
+    
+}
+
+.arrow a{
+    font-size: 24pt;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
 ul.side-menu{
    
     list-style: none;
@@ -56,16 +83,27 @@ ul.side-menu li a{
     text-decoration: none;
 }
 
+ul.footer-menu{
+    margin-top: 20px;
+}
+
+ul.footer-menu li{
+    color: rgb(151, 144, 144);
+    list-style: none;
+    display: inline;
+    font-size: 14pt;
+}
+
 main{
     width: 66%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 75px;
     background-color: rgb(245, 239, 239);
     border-radius: 5pt;
     min-height: 80%;
     align-self: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 article{

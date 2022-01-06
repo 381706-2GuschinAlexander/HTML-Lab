@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="../styles/main.css">
+<script src="../scripts/bind.js"></script>
+<head>
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <header>
+        <h3 align="center">TITLE</h3>
+        <ul class="main-menu">
+            <li><a>Главное</a>
+                <ul>
+                    <li><a>Общая информация</a></li>
+                    <li><a>Цены</a></li>
+                    <li><a>Запись</a></li>
+                </ul>
+            </li>
+            <li><a>Маршрут</a>
+                <ul>
+                    <li><a>Рекомендуемое снаряжение</a></li>
+                    <li><a>Программа по дням</a></li>
+                </ul>
+            </li>
+            <li><a>О нас</a>
+                <ul>
+                    <li><a>Наши сотрудники</a></li>
+                    <li><a>Контактная информация</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+
+    <section>
+        <aside class="left">
+            <ul class="side-menu">
+                <li><a href="#1">Link 1</a></li> 
+                <li><a href="#2">Link 2</a></li> 
+            </ul>
+        </aside>
+        <main>
+            <article>
+            <div class="text">
+                <p id="1">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p id="2">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            </div>
+            </article>
+            <img id="img" class="main-img">
+            <table align="center">
+                <tr class="arrow">
+                    <td>
+                        <a  id="bt">←</a>
+                    </td>
+                    <td>
+                        <a  id="bt2">→</a>
+                    </td>
+                </tr>
+            </table>
+
+            
+        </main>
+        
+
+    </section>
+    <footer>
+        <ul class="footer-menu">
+            <li>«Клуб Путешествий». Походы c 2022 г.</li>
+            <li>Контактные данные: +78889997776</li>
+        </ul>
+    </footer>
+
+
+
+    <script>
+        gl = 0;
+        bindImageSwap(document.getElementById("bt"), document.getElementById("bt2"), document.getElementById("img"), "../images/main_page/", gl, 3);
+    </script>
+
+</body>
