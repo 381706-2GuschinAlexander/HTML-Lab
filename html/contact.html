@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../styles/main.css">
+<script src="../scripts/bind.js"></script>
+<head>
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <header>
+        <h3 align="center">Клуб Путешествий</h3>
+        <ul class="main-menu">
+            <li><a>Главное</a>
+                <ul>
+                    <li><a href="index.html">Общая информация</a></li>
+                    <li><a href="forms.html">Запись</a></li>
+                </ul>
+            </li>
+            <li><a>Маршрут</a>
+                <ul>
+                    <li><a href="eqip.html">Информация о маршруте</a></li>
+                    <li><a href="schedule.html">Программа по дням</a></li>
+                </ul>
+            </li>
+            <li><a>О нас</a>
+                <ul>
+                    <li><a href="team.html">Наши сотрудники</a></li>
+                    <li><a href="contact.html">Контактная информация</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+
+    <section>
+        <main>
+            <article>
+                <p class="main-title">Контактная информация</p>
+                <p>Связаться с нами для уточнения вопросов можно по телефону или электронной почте. Время ответа по почте: 1 - 3 дня.</p>
+                <ul style="list-style: none;">
+                    <li>Телефон: +78889997776</li>
+                    <li>Почта: mail@mail.com</li>
+                    <li>Адрес: просп. Гагарина, 23, Нижний Новгород, Нижегородская обл., 603022</li>
+                </ul>
+                <img class="main-img" src="../images/contact_page/0.jpg">
+            </article>           
+        </main>
+        
+
+    </section>
+    <footer>
+        <ul>
+            <li>«Клуб Путешествий». Походы c 2022 г.</li>
+            <li>Телефон: +78889997776</li>
+            <li>Почта: mail@mail.com</li>
+        </ul>
+    </footer>
+
+
+
+    <script>
+        gl = 0;
+        bindImageSwap(document.getElementById("bt"), document.getElementById("bt2"), document.getElementById("img"), "../images/main_page/", gl, 3);
+    </script>
+
+</body>

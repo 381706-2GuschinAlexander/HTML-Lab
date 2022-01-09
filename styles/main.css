@@ -1,7 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16pt;
-    width: 99%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url("../images/bg.jpg");
@@ -16,22 +15,50 @@ footer{
     background-color: rgba(4, 51, 14, 0.8);
 }
 
-h3{
-    color :rgb(255, 255, 255);
-    padding-top: 7px;
+input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-section{
-    width: 100%;
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color :rgb(255, 255, 255);
+    padding-top: 7px;
+    margin-top: 15px;
+}
+
+p{
+    margin: 5px;
 }
 
 aside{
     background-color: rgb(245, 239, 239);
-    width: 15%;
+    max-width: 15%;
     border-radius: 5pt;
     position: sticky;
     top: 0;
-    
+}
+
+table.team-table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout:  fixed;
+    border-spacing: 20px 20px;
+}
+
+table.team-table tr > td:first-child{
+    width: 33%;
+}
+
+table.team-table td img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+table.team-table td{
+    vertical-align: top;
 }
 
 aside.left  {
@@ -49,8 +76,16 @@ img.main-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 } 
 
+p.main-title{
+    text-indent: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .arrow a:hover{
     color: #aa6089;
@@ -67,28 +102,34 @@ img.main-img{
     -ms-user-select: none;
 }
 
-ul.side-menu{
-   
+aside > ul{
+    padding-left: 15px;
+    padding-right: 15px;
     list-style: none;
     background-color: inherit;
 }
 
-ul.side-menu li a:hover{
+aside > ul > li{
+    margin-bottom: 5px;
+}
+
+aside > ul > li a:hover{
     color: #aa6089;
     text-decoration: none;
 }
 
-ul.side-menu li a{
+aside > ul > li a{
     color: rgb(138 138 189);
     text-decoration: none;
 }
 
-ul.footer-menu{
+footer > ul{
     margin-top: 20px;
 }
 
-ul.footer-menu li{
+footer > ul > li{
     color: rgb(151, 144, 144);
+    padding-right: 20px;
     list-style: none;
     display: inline;
     font-size: 14pt;
@@ -96,24 +137,27 @@ ul.footer-menu li{
 
 main{
     width: 66%;
+    min-height: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 75px;
     background-color: rgb(245, 239, 239);
     border-radius: 5pt;
-    min-height: 80%;
     align-self: center;
 }
 
 article{
     font-size: 14pt;
     text-indent: 15mm;
-}
-
-.text {
     margin-left: 5mm;
     margin-right: 5mm;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+article > ul > li{
+    text-indent: 5mm;
 }
 
 header{

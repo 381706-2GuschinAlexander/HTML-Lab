@@ -1,7 +1,7 @@
 function bindImageSwap(left_button, rigth_button, image_element="none", image_path="none", global_counter, img_count){
 
     function setImage(name){
-        image_element.src= image_path + name + ".png";
+        image_element.src= image_path + name + ".jpg";
     };
 
     setImage(global_counter.toString())

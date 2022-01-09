@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <link rel="stylesheet" href="../styles/main.css">
 <script src="../scripts/bind.js"></script>
 <head>
@@ -6,25 +7,24 @@
 
 <body>
     <header>
-        <h3 align="center">TITLE</h3>
+        <h3 align="center">Клуб Путешествий</h3>
         <ul class="main-menu">
             <li><a>Главное</a>
                 <ul>
-                    <li><a>Общая информация</a></li>
-                    <li><a>Цены</a></li>
-                    <li><a>Запись</a></li>
+                    <li><a href="index.html">Общая информация</a></li>
+                    <li><a href="forms.html">Запись</a></li>
                 </ul>
             </li>
             <li><a>Маршрут</a>
                 <ul>
-                    <li><a>Рекомендуемое снаряжение</a></li>
-                    <li><a>Программа по дням</a></li>
+                    <li><a href="eqip.html">Информация о маршруте</a></li>
+                    <li><a href="schedule.html">Программа по дням</a></li>
                 </ul>
             </li>
             <li><a>О нас</a>
                 <ul>
-                    <li><a>Наши сотрудники</a></li>
-                    <li><a>Контактная информация</a></li>
+                    <li><a href="team.html">Наши сотрудники</a></li>
+                    <li><a href="contact.html">Контактная информация</a></li>
                 </ul>
             </li>
         </ul>
@@ -33,33 +33,47 @@
 
     <section>
         <aside class="left">
-            <ul class="side-menu">
-                <li><a href="#1">Link 1</a></li> 
-                <li><a href="#2">Link 2</a></li> 
+            <ul>
+                <li><a href="#0">1. Мультинские озера</a></li> 
+                <li><a href="#1">2. Алтай</a></li> 
+                <li><a href="#2">3. Катунский хребет</a></li> 
             </ul>
         </aside>
         <main>
             <article>
-            <div class="text">
-                <p id="1">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p class="main-title" id="0">Мультинские озера</p>
+                <p>
+                    Лёгкий, но невероятно красивый тур по Алтаю к Мультинским озёрам! Неспешные прогулки вдоль озёр и горных рек, мимо завораживающих горных видов, сквозь таёжные леса с грибами и ягодами. 
+                    Возможность отдохнуть в красивом первозданном уединённом уголке. Ночёвки в палатках на берегах кристально чистых озёр. Прогулки по заповеднику. 
+                    Посиделки у костра с интересной компанией. Необычайно звёздное небо, снежные пики, приветливые «лесные жители», чистейший воздух и непередаваемая энергетика Алтая. И всё это в формате лёгких прогулок, без таскания тяжёлых рюкзаков, без преодоления перевалов и без длинных переходов. 
+                    Мультинские озера – живописный озерный каскад на Алтае. Между собой их соединяет река Мульта - приток знаменитой Катуни. Роскошные горные панорамы на высоте 2 тыс. метров. Местные красоты притягивают туристов из самых разных регионов страны. 
                 </p>
-                <p id="2">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            </div>
+                <img class="main-img" src="../images/main_page/m.jpg">
+                <p class="main-title" id="1">Алтай</p>
+                <p>
+                    Алтай считается красивейшим регионом России. Его визитной карточкой являются горы, реки и озера. Сюда, в частности, приезжают, чтобы своими глазами увидеть знаменитые Мультинские озера.
+                </p>
+                <img id="img" class="main-img">
+                <table align="center">
+                    <tr class="arrow">
+                        <td>
+                            <a  id="bt">←</a>
+                        </td>
+                        <td>
+                            <a  id="bt2">→</a>
+                        </td>
+                    </tr>
+                </table>
+                <p class="main-title" id="2">Катунский хребет</p>
+                <p>
+                    В Республике Алтай есть Усть-Коксинский аймак. Так на горно-алтайском языке называется район. Через него проходит Катунский хребет – горный массив протяженностью 150 км. 
+                    Высочайшей вершиной хребта считается гора Белуха, достигающая высоты 4506 м. На леднике Геблера находятся истоки знаменитой алтайской реки Катунь. А на северном склоне массива раскинулся целый озерный каскад. Это и есть Мультинские озера.
+                    Свое имя они получили по реке Мульта. Она протекает сквозь три озера и впадает в Катунь. Следует заметить, что в ее бассейне имеются и другие горные озера. 
+                    В общей сложности их насчитывается более четырех десятков. В низовьях реки расположено село Мульта. Отсюда обычно и стартуют маршруты к Мультинским озерам.
+                </p>
             </article>
-            <img id="img" class="main-img">
-            <table align="center">
-                <tr class="arrow">
-                    <td>
-                        <a  id="bt">←</a>
-                    </td>
-                    <td>
-                        <a  id="bt2">→</a>
-                    </td>
-                </tr>
-            </table>
+            
+            
 
             
         </main>
@@ -67,9 +81,10 @@
 
     </section>
     <footer>
-        <ul class="footer-menu">
+        <ul>
             <li>«Клуб Путешествий». Походы c 2022 г.</li>
-            <li>Контактные данные: +78889997776</li>
+            <li>Телефон: +78889997776</li>
+            <li>Почта: mail@mail.com</li>
         </ul>
     </footer>
 

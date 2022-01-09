@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../styles/main.css">
+<script src="../scripts/bind.js"></script>
+<head>
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <header>
+        <h3 align="center">Клуб Путешествий</h3>
+        <ul class="main-menu">
+            <li><a>Главное</a>
+                <ul>
+                    <li><a href="index.html">Общая информация</a></li>
+                    <li><a href="forms.html">Запись</a></li>
+                </ul>
+            </li>
+            <li><a>Маршрут</a>
+                <ul>
+                    <li><a href="eqip.html">Информация о маршруте</a></li>
+                    <li><a href="schedule.html">Программа по дням</a></li>
+                </ul>
+            </li>
+            <li><a>О нас</a>
+                <ul>
+                    <li><a href="team.html">Наши сотрудники</a></li>
+                    <li><a href="contact.html">Контактная информация</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+
+    <section>
+        <main>
+            <article>
+                <p class="main-title">Наша Команда</p>
+                <table class="team-table">
+                    <tr>
+                        <td><img src="../images/team_page/0.jpg"></td>
+                        <td><p>
+                            <b>Гущин Александр Владимирович</b> – опытный путешественник, закончил ФИИТ в ННГУ им. Лобачевского. Любит вид природы в её первозданном виде.  Больше всего предпочитает походы на легке.
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/team_page/1.jpg"></td>
+                        <td><p>
+                            <b>Банденков Даниил Викторович</b> - ответственно подходит к выбору места стоянки, помогает со сбором вещей для похода, расскажет, что нужно брать. Много расскажет про посещаемые места. 
+                            Даниил всегда заботится о физическом состоянии и духе группы. Если кто-то не справляется с темпом похода, сделает привал, всегда предложит свою помощь.
+                        </p></td>
+                    </tr>
+                </table>
+            </article>      
+        </main>
+        
+
+    </section>
+    <footer>
+        <ul>
+            <li>«Клуб Путешествий». Походы c 2022 г.</li>
+            <li>Телефон: +78889997776</li>
+            <li>Почта: mail@mail.com</li>
+        </ul>
+    </footer>
+
+
+
+    <script>
+        gl = 0;
+        bindImageSwap(document.getElementById("bt"), document.getElementById("bt2"), document.getElementById("img"), "../images/main_page/", gl, 3);
+    </script>
+
+</body>
